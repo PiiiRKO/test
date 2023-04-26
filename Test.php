@@ -22,7 +22,7 @@ if($obj){
 $data = json_decode(file_get_contents($url), true);
 $rate = $data['rates']['CZK'];
 
-echo "Current exchange rate CAD/CZK: " . $rate;
+echo "CAD/CZK: " . $rate;
     }
     $info.="\n".gmdate("Y-m-d H:i:s");
     $response->info=$info;
